@@ -18,7 +18,26 @@
   body {
     position: relative ;
   }
-  
+  body {
+  /* Estilos padrão para o body */
+
+  /* Adicione aqui as regras de estilo que se aplicam a todos os dispositivos */
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  body {
+    /* Coloque aqui as regras de estilo específicas para dispositivos móveis */
+  }
+}
+
+/* Estilos para desktops */
+@media only screen and (min-width: 601px) {
+  body {
+    /* Coloque aqui as regras de estilo específicas para desktops */
+  }
+}
+
   .border-bottom {
     position: absolute;
     bottom: 0;
