@@ -123,10 +123,7 @@
       background-size: relative;
       background-repeat: no-repeat;
       background-size: 100% 650vh;
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  
       
     }
    h1 {
