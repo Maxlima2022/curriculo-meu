@@ -1,3 +1,4 @@
+
 .circular-image {
     width: 200px;
     height: 200px;
@@ -15,27 +16,10 @@
     margin: 50px 0;
   }
   
-
   body {
-  /* Estilos padrão para o body */
-
-  /* Adicione aqui as regras de estilo que se aplicam a todos os dispositivos */
-}
-
-/* Estilos para dispositivos móveis */
-@media only screen and (max-width: 600px) {
-  body {
-    /* Coloque aqui as regras de estilo específicas para dispositivos móveis */
+    position: relative;
   }
-}
-
-/* Estilos para desktops */
-@media only screen and (min-width: 601px) {
-  body {
-    /* Coloque aqui as regras de estilo específicas para desktops */
-  }
-}
-
+  
   .border-bottom {
     position: absolute;
     bottom: 0;
@@ -136,7 +120,15 @@
     font-style: oblique;
   }
 
+  body {
 
+      background-image: url("14.jpg");
+      background-size: relative;
+      background-repeat: no-repeat;
+      background-size: 100% 650vh;
+   
+      
+    }
    h1 {
 
     background-color: #7c7b7b;
@@ -177,8 +169,3 @@
   p {
     color: #ffffff;
   }
-img {
-  max-width: 100%;
-  height: auto;
-}
-
