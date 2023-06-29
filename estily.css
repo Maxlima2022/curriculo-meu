@@ -6,7 +6,7 @@
   }
   
   .circular-image img {
-    width: 100%;
+    width: 50%;
   }
   .line {
     width: 100%;
@@ -79,7 +79,7 @@
   
   img {
     width: 100%;
-    height: fixed;
+    height: 100%;
   }
   
   .content {
