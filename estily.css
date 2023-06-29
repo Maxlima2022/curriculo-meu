@@ -26,10 +26,7 @@
     background: linear-gradient(to right, transparent, #a9ac88, transparent);
   }
   
-  body {
-    position: relative;
 
-  }
 
   
   .border-bottom {
@@ -74,7 +71,7 @@
   
   .image-container {
     width: 30%;
-    margin-right: 20px;
+    margin-right: 50px;
   }
   
   img {
